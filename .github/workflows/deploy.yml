@@ -23,7 +23,7 @@ jobs:
         with:
           channel: stable
       - run: flutter pub get
-      - run: flutter build web --release --base-href /zimdash/
+      - run: flutter build web --release --base-href /ZimDash/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/web
